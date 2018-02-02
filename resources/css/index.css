@@ -1,1 +1,35 @@
+body {
+  font-family: Helvetica;
+  text-align: center;
+}
 
+#header {
+  background-image: url("../images/flatiron.png");
+}
+
+h2 {
+  font-size: 32px;
+}
+
+.sub-headers {
+  font-size: 23px;
+  font-weight: bold;
+}
+
+.info {
+  font-size: 14px;
+}
+
+#second-header {
+  background-image: url("../images/flatiron.png");
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+#footer {
+  font-size: 11px;
+  color: white;
+  background-color: dimgray;
+  text-align: left;
+}
