@@ -5,10 +5,34 @@ body {
 
 #header {
   background-image: url("../images/flatiron.png");
+  background-size: auto 100%;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
-h2 {
+#head {
+  font-size: 70px;
+  font-weight: bold;
+  color: white;
+}
+
+a {
+  list-style-position: outside;
+}
+
+#index {
+  list-style-type: none;
+  color: white;
+}
+
+.link {
+  font-size: 18px;
+  color: white;
+}
+
+#process {
   font-size: 32px;
+  font-weight: bold;
 }
 
 .sub-headers {
