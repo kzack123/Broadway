@@ -1,6 +1,8 @@
 body {
   font-family: Helvetica;
   text-align: center;
+  padding: 0px;
+  margin: 0px;
 }
 
 #header {
@@ -16,18 +18,22 @@ body {
   color: white;
 }
 
-a {
-  list-style-position: outside;
-}
-
 #index {
   list-style-type: none;
   color: white;
 }
 
+.link-holder {
+  padding-top: 15px;
+}
+
 .link {
   font-size: 18px;
   color: white;
+  padding-right: 50px;
+}
+
+li {
 }
 
 #process {
@@ -46,6 +52,7 @@ a {
 
 #second-header {
   background-image: url("../images/flatiron.png");
+  background-position: center;
   font-size: 32px;
   font-weight: bold;
   color: white;
@@ -56,4 +63,8 @@ a {
   color: white;
   background-color: dimgray;
   text-align: left;
+}
+
+.footer-links {
+  color: white;
 }
